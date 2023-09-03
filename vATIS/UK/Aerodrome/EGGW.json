@@ -38,7 +38,7 @@
             "Spoken": "DATA-LINK"
           }
         ],
-        "AtisFrequency": 31350,
+        "AtisFrequency": 20575,
         "ObservationTime": {
           "Enabled": false,
           "Time": 0
