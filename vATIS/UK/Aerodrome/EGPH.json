@@ -1,0 +1,152 @@
+{
+    "Name": "UK - EGPH",
+    "Composites": [
+      {
+        "Name": "Edinburgh ",
+        "Identifier": "EGPH",
+        "Contractions": [
+          {
+            "String": "HPA",
+            "Spoken": "HECTO-PASKALS"
+          },
+          {
+            "String": "RNAV",
+            "Spoken": "ARE-NAV"
+          },
+          {
+            "String": "CAVOK",
+            "Spoken": "CAV-OH-KAY"
+          },
+          {
+            "String": "RNP",
+            "Spoken": "ARE-ENN-PEE"
+          },
+          {
+            "String": "WIP",
+            "Spoken": "WORK-IN-PROGRESS"
+          },
+          {
+            "String": "ILS",
+            "Spoken": "EYE-ELL-ESS"
+          },
+          {
+            "String": "ATC",
+            "Spoken": "AY-TEE-SEE"
+          },
+          {
+            "String": "DATALINK",
+            "Spoken": "DATA-LINK"
+          }
+        ],
+        "AtisFrequency": 31350,
+        "ObservationTime": {
+          "Enabled": false,
+          "Time": 0
+        },
+        "MagneticVariation": {
+          "Enabled": false,
+          "MagneticDegrees": 0
+        },
+        "AtisVoice": {
+          "UseTextToSpeech": true,
+          "Voice": "UK Female"
+        },
+        "IDSEndpoint": null,
+        "Presets": [
+          {
+            "Name": "RUNWAY 24 (EGPH)",
+            "AirportConditions": null,
+            "Notams": null,
+            "ArbitraryText": null,
+            "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 24.. [TL].. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          },
+          {
+            "Name": "RUNWAY 06 EGPH)",
+            "AirportConditions": null,
+            "Notams": null,
+            "ArbitraryText": null,
+            "Template": "THIS IS [FACILITY] INFORMATION [ATIS_CODE] AT TIME [OBS_TIME]. RUNWAY IN USE 06.. [TL].. [WIND]. [VIS]. [RVR]. [PRESENT_WX]. [CLOUDS]. [TEMP]. [DEW]. [PRESSURE]. [ARPT_COND]. [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          }
+        ],
+        "AirportConditionDefinitions": [
+          {
+            "Ordinal": 1,
+            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH DELIVERY ON 121.975.",
+            "Enabled": false
+          }, 
+          {
+            "Ordinal": 2,
+            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH GROUND ON 121.750.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 3,
+            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH TOWER ON 118.700.",
+            "Enabled": true
+          },
+          {
+            "Ordinal": 4,
+            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH RADAR ON 121.200",
+            "Enabled": true
+          },
+          {
+            "Ordinal": 5,
+            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH DIRECTOR ON 128.975",
+            "Enabled": true
+          }
+        ],
+        "NotamDefinitions": [
+          {
+            "Ordinal": 1,
+            "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+            "Enabled": false
+          },
+          {
+            "Ordinal": 2,
+            "Text": "DATALINK CLEARANCES AVAILABLE. PDC ADDRESS EGPH",
+            "Enabled": true
+          }
+        ],
+        "TransitionLevels": [
+          {
+            "Low": 940,
+            "High": 958,
+            "Altitude": 80
+          },
+          {
+            "Low": 959,
+            "High": 976,
+            "Altitude": 75
+          },
+          {
+            "Low": 977,
+            "High": 994,
+            "Altitude": 70
+          },
+          {
+            "Low": 995,
+            "High": 1012,
+            "Altitude": 65
+          },
+          {
+            "Low": 1013,
+            "High": 1031,
+            "Altitude": 60
+          },
+          {
+            "Low": 1032,
+            "High": 1049,
+            "Altitude": 55
+          }
+        ],
+        "UseFaaFormat": false,
+  
+        "UseNotamPrefix": false,
+        "UseTransitionLevelPrefix": true,
+        "UseMetricUnits": false,
+        "UseSurfaceWindPrefix": true,
+        "UseVisibilitySuffix": false,
+        "UseDecimalTerminology": true
+      }
+    ]
+  }
