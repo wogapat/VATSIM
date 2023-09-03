@@ -71,30 +71,35 @@
         "AirportConditionDefinitions": [
           {
             "Ordinal": 1,
+            "Description": "GMP - Dept first contact",
             "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LUTON DELIVERY ON 121.675.",
             "Enabled": false
           }, 
           {
             "Ordinal": 2,
+            "Description": "GMC - Dept first contact",
             "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LUTON GROUND ON 121.750.",
             "Enabled": false
           },
           {
             "Ordinal": 3,
+            "Description": "AIR - Dept first contact",
             "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH LUTON TOWER ON 132.550.",
-            "Enabled": true
+            "Enabled": false
           }
         ],
         "NotamDefinitions": [
           {
             "Ordinal": 1,
+            "Description": "LVP",
             "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
             "Enabled": false
           },
           {
             "Ordinal": 2,
+            "Description": "PDC",
             "Text": "DATALINK CLEARANCES AVAILABLE. PDC ADDRESS EGGW",
-            "Enabled": true
+            "Enabled": false
           }
         ],
         "TransitionLevels": [
