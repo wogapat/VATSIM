@@ -71,40 +71,35 @@
         "AirportConditionDefinitions": [
           {
             "Ordinal": 1,
-            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH DELIVERY ON 121.975.",
+            "Description": "GMP - Dept first contact",
+            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH DELIVERY ON 121.975. ",
             "Enabled": false
           }, 
           {
             "Ordinal": 2,
-            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH GROUND ON 121.750.",
+            "Description": "GMC - Dept first contact ",
+            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH GROUND ON 121.750. ",
             "Enabled": false
           },
           {
             "Ordinal": 3,
-            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH TOWER ON 118.700.",
-            "Enabled": true
-          },
-          {
-            "Ordinal": 4,
-            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH RADAR ON 121.200",
-            "Enabled": true
-          },
-          {
-            "Ordinal": 5,
-            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH DIRECTOR ON 128.975",
-            "Enabled": true
+            "Description": "AIR - Dept first contact ",
+            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH TOWER ON 118.700. ",
+            "Enabled": false
           }
         ],
         "NotamDefinitions": [
           {
             "Ordinal": 1,
-            "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE.",
+            "Description": "LVP",
+            "Text": "ATC LOW VISIBILITY PROCEDURES IN FORCE. USE CAT TWO THREE HOLDING POINTS. ARRIVING AIRCRAFT CHECK YOUR MINIMA. ",
             "Enabled": false
           },
           {
             "Ordinal": 2,
-            "Text": "DATALINK CLEARANCES AVAILABLE. PDC ADDRESS EGPH",
-            "Enabled": true
+            "Description": "PDC",
+            "Text": "DATALINK CLEARANCES AVAILABLE. PDC ADDRESS EGPH. ",
+            "Enabled": false
           }
         ],
         "TransitionLevels": [
