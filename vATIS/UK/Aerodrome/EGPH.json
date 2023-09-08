@@ -38,7 +38,7 @@
             "Spoken": "DATA-LINK"
           }
         ],
-        "AtisFrequency": 31350,
+        "AtisFrequency": 31355,
         "ObservationTime": {
           "Enabled": false,
           "Time": 0
@@ -78,13 +78,13 @@
           {
             "Ordinal": 2,
             "Description": "GMC - Dept first contact ",
-            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH GROUND ON 121.750. ",
+            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH GROUND ON 121.755. ",
             "Enabled": false
           },
           {
             "Ordinal": 3,
             "Description": "AIR - Dept first contact ",
-            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH TOWER ON 118.700. ",
+            "Text": "DEPARTING AIRCRAFT MAKE INITIAL CONTACT WITH EDINBURGH TOWER ON 118.705. ",
             "Enabled": false
           }
         ],
