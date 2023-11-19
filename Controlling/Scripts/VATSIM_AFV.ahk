@@ -1,3 +1,4 @@
+; Written by Patrick Wogan (Wogapat) v1.0 19/11/2023
 ; This file is for AutoHotKey v2.0 
 ; The script reads pedal axis. 
 ; Right pedal press > 65 then Pause (break) key is pressed
