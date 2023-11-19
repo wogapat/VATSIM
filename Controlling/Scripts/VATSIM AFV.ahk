@@ -1,4 +1,10 @@
-﻿#Requires AutoHotkey v2.0
+; This file is for AutoHotKey v2.0 
+; The script reads pedal axis. 
+; Right pedal press > 65 then Pause (break) key is pressed
+; Left pedal press > 65 then ScrollLock key is pressed
+; Joystick ID is #1. You should check your joystick number in AutoHotKey and amend appropriately.
+
+#Requires AutoHotkey v2.0
 
 SetTimer WatchAxis, 5
 
