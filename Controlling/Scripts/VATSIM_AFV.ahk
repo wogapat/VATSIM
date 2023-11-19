@@ -1,8 +1,9 @@
 ; Written by Patrick Wogan (Wogapat) v1.0 19/11/2023
 ; This file is for AutoHotKey v2.0 
-; The script reads pedal axis. 
-; Right pedal press > 65 then Pause (break) key is pressed
-; Left pedal press > 65 then ScrollLock key is pressed
+; The script reads pedal axis and creates a keyboard input based on pedal press. 
+; Right pedal press > 65 then 'Pause' (break) key is pressed
+; Left pedal press > 65 then 'ScrollLock' key is pressed
+; To work with TeamSpeak run TS and this script in admin. You can compile to a .exe using AutoHotKey
 ; Joystick ID is #1. You should check your joystick number in AutoHotKey and amend appropriately.
 
 #Requires AutoHotkey v2.0
